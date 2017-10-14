@@ -5,6 +5,7 @@ const fs=require('fs');
 
 var app = express(); 
 
+ var app;
 hbs.registerPartials(__dirname+'/views/partials')
 
 app.set('view engine','hbs');
